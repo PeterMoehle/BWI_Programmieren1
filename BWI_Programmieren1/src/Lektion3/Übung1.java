@@ -19,7 +19,8 @@ public class Übung1 {
 	 */
 	public static void run() {
 		System.out.println("Bitte geben Sie eine ganze Zahl ein: ");
-		int number = new java.util.Scanner(System.in).nextInt();
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+		int number = scanner.nextInt();
 		if (number % 7 == 0) {
 			System.out.println("Die Zahl " + number + " ist durch 7 teilbar.");
 		} else {
