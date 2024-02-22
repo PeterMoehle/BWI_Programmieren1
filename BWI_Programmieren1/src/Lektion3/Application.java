@@ -7,6 +7,7 @@ public class Application {
 		Übung2.run();
 		Übung3.run();
 		Übung4.run();
+		Übung5.run();
 	}
 
 }
