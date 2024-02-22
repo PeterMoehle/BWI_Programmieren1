@@ -8,6 +8,7 @@ public class Application {
 		Übung3.run();
 		Übung4.run();
 		Übung5.run();
+		Übung6.run();
 	}
 
 }
