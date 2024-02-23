@@ -10,7 +10,11 @@ package Lektion4;
 //Kopf der main-Methode throws InterruptedException ergänzen:
 
 public class Übung1 {
-
+	/**
+	 * Zählt von 15 bis 0 herunter und gibt die verbleibende Sekundenzahl aus.
+	 * 
+	 * @throws InterruptedException
+	 */
 	public static void run() throws InterruptedException {
 		for (int i = 15; i >= 0; i--) {
 			System.out.println(i);
