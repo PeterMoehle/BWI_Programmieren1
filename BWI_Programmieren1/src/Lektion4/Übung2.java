@@ -22,7 +22,12 @@ package Lektion4;
 //erscheint, verwenden Sie bitte Thread.sleep (millis) wie in der Countdown‐Aufgabe.
 
 public class Übung2 {
-
+	/**
+	 * Gibt die zurückgelegte Strecke eines frei fallenden Körpers im Sekundentakt
+	 * aus.
+	 * 
+	 * @throws InterruptedException
+	 */
 	public static void run() throws InterruptedException {
 		double g = 9.80665;
 		System.out.println("Bitte Falldauer in Sekunden eingeben: ");

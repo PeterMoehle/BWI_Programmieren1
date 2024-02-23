@@ -15,6 +15,9 @@ package Lektion4;
 //Das Querprodukt der Zahl 3225 betraegt 60
 
 public class Übung5 {
+	/**
+	 * Berechnet das Querprodukt einer Zahl.
+	 */
 	public static void run() {
 		int number = 0;
 		while (true) {
