@@ -6,6 +6,7 @@ public class Application {
 		try {
 			Übung1.run();
 			Übung2.run();
+			Übung3.run();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
